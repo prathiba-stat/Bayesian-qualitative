@@ -19,10 +19,10 @@ plot_SSD <- function(y) {
   DF <- data.frame(
     phase = rep(seq(P), times = T),
     time = seq(sum(T)),
-    value = observations
+    outcome = observations
   )
   
-  ggplot(DF, aes(x = time, y = value)) +
+  ggplot(DF, aes(x = time, y = outcome)) +
     geom_point() +
     geom_line(aes(group = phase)) +
     geom_vline(xintercept = head(changepoints, -1) + 0.5, linetype = "dotted") +
