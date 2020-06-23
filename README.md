@@ -19,7 +19,7 @@ Any text that comes after # on a line is a comment and will not be executed. Thi
 
 In plots_left_side.R, plots_right_side.R and Rate ratio-ABAB.R files, #set working directory and remove the hashtag sign from line 2 
 
-Open Rate ratio-ABAB.R and work your way through the file by highlighting each line with your mouse and clicking on "Run" in the browser or ctrl+R
+Open Rate ratio-AB.R and work your way through the file by highlighting each line with your mouse and clicking on "Run" in the browser or ctrl+R
 
 If you have any questions, please email pnbatley@gmail.com
 
