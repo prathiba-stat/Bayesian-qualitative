@@ -7,7 +7,7 @@ Download all R files and save them to a single directory. This will be your work
 Start by installing R, Rstudio, and JAGS from the internet.
 You will also need to install a few more packages such as runjags,
 rjags, and ggplot2.The rest of the programs that need to be sourced are
-automatically programmed in the main file called Rate ratio-ABAB.R
+automatically programmed in the main file called Rate ratio-AB.R
 
 Use RStudio as your program to call R and JAGS
 
@@ -17,9 +17,10 @@ files. You may have as many subfolders within a given folder as long as they are
 
 Any text that comes after # on a line is a comment and will not be executed. This is used to help you understand the script.
 
-In plots_left_side.R, plots_right_side.R and Rate ratio-ABAB.R files, #set working directory and remove the hashtag sign from line 2 
+In plots_left_side.R, plots_right_side.R and Rate ratio-AB.R files, #set working directory and remove the hashtag sign from line 2 
 
 Open Rate ratio-AB.R and work your way through the file by highlighting each line with your mouse and clicking on "Run" in the browser or ctrl+R
+
 
 If you have any questions, please email pnbatley@gmail.com
 
